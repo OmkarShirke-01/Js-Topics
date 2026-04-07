@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="name1"></h1>
+    <h1 id="age1"></h1>
+    <h1 id="student1"></h1>
+
+    <script>
+    //A variable is storage for data
+    //It behaves like it contains a the value
+
+    //Two steps
+    //1. Declaration (var, let, const)
+    //2. Assignment (= assignment operator)
+    
+
+    let name = "john"; //String
+    let age = 25; //Number
+    let student = false; //Boolean
+
+    console.log(name);
+    console.log(age);
+    console.log(student);
+
+    document.write(name);
+    document.write(age);
+    document.write(student);
+    
+    document.getElementById("name1").innerHTML = "My name is " + name;
+    document.getElementById("age1").innerHTML = "My age is " + age;
+    document.getElementById("student1").innerHTML = "Am i a student? " + student;
+    document.getElementById("student1").style.color = "red";
+
+    </script>
+</body>
+</html>
