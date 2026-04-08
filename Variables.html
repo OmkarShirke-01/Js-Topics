@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p id="info1"></p>
+    <p id="info2"></p>
+    <p id="info3"></p>
+
+    <script>
+    // A variable is container of value
+    // Declatation       let x;
+    // Assign            x = name,number,bulean
+
+    let x;               /* Declaration */
+    x = 21;             /* Assigned */
+
+    console.log(x);
+
+    let name;
+    name = "Batman";
+
+    console.log(name);
+    console.log("Your name is",name,"your age is",x);
+    
+    //Data types
+    //There are mainly 3 types of data types
+    // Number,boolean,string,
+
+    let a = 100;
+    let b = "xyz";
+    let c = false;
+
+    console.log(typeof a);
+    console.log(typeof b);
+    console.log(typeof c);
+
+    //Eg
+
+    let fullName = "Bruice wayne";
+    let contact = 9999;
+    let isValid = false;
+
+    document.getElementById("info1").textContent = "Your name is "+ fullName; 
+    document.getElementById("info2").textContent = "Your contact no is "+ contact; 
+    document.getElementById("info3").textContent = "Visa validation "+ isValid; 
+
+    </script>
+</body>
+</html>
